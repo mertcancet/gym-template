@@ -1,6 +1,6 @@
 import { styled } from 'stitches.config';
 
-const Button = ({ prefix, suffix, children, props }) => {
+const Button = ({ prefix, suffix, children, ...props }) => {
   return (
     <StyledButton {...props}>
       {prefix}
@@ -17,4 +17,7 @@ const StyledButton = styled('button', {
   backgroundColor: '$red',
   p: 20,
   textTransform: 'uppercase',
+  display: 'flex',
+  alignItems: 'center',
+  gap: 10,
 });

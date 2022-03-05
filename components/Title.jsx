@@ -1,8 +1,8 @@
 import { styled } from 'stitches.config';
 
-const Title = ({ level = 1, children, as, props }) => {
+const Title = ({ level = 1, children, ...props }) => {
   return (
-    <StyledTitle level={level} as={as} {...props}>
+    <StyledTitle level={level} {...props}>
       {children}
     </StyledTitle>
   );
@@ -13,6 +13,7 @@ export default Title;
 const StyledTitle = styled('div', {
   fw: 700,
   textTransform: 'uppercase',
+  color: '$white',
   variants: {
     level: {
       1: {
