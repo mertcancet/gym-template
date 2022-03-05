@@ -11,7 +11,12 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      //colors
+      red: '#E11B19',
+      black: '#191C1F',
+      black100: '#1F2327',
+      gray: '#3C3C3C',
+      white: '#FFFFFF',
+      white100: '#F9F9F9',
     },
     radii: {
       sm: '2px',
@@ -99,6 +104,12 @@ export const {
     }),
     fs: value => ({
       fontSize: `${value}px`,
+    }),
+    fw: value => ({
+      fontWeight: value,
+    }),
+    lh: value => ({
+      lineHeight: `${value}px`,
     }),
     size: value => ({
       width: value,
