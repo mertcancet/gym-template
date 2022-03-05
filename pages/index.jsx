@@ -1,9 +1,10 @@
-import { Button, Hero, Text, Title } from 'components';
+import { Hero, IconSection } from 'components';
 
 const Home = () => {
   return (
     <div>
       <Hero />
+      <IconSection />
     </div>
   );
 };
