@@ -9,4 +9,7 @@ export default Container;
 const Wrapper = styled('div', {
   maxWidth: 1440,
   mx: 'auto',
+  '@2xlMax': {
+    px: 16,
+  },
 });

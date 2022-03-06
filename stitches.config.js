@@ -41,13 +41,15 @@ export const {
     md: '(min-width: 768px)',
     lg: '(min-width: 1024px)',
     xl: '(min-width: 1280px)',
-    '2xl': '(min-width: 1536px)',
+    '2xlMax': '(min-width: 1440px)',
+    '3xl': '(min-width: 1536px)',
 
     smMax: '(max-width: 639px)',
     mdMax: '(max-width: 767px)',
     lgMax: '(max-width: 1023px)',
     xlMax: '(max-width: 1279px)',
-    '2xlMax': '(max-width: 1536px)',
+    '2xlMax': '(max-width: 1440px)',
+    '3xlMax': '(max-width: 1536px)',
   },
   utils: {
     m: value => ({
