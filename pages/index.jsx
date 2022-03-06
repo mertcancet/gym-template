@@ -1,4 +1,4 @@
-import { Hero, IconSection, WorldClassSection } from 'components';
+import { Hero, IconSection, OwnerSection, WorldClassSection } from 'components';
 
 const Home = () => {
   return (
@@ -6,6 +6,7 @@ const Home = () => {
       <Hero />
       <IconSection />
       <WorldClassSection />
+      <OwnerSection />
     </div>
   );
 };
