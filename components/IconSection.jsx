@@ -51,6 +51,7 @@ export default IconSection;
 const Bg = styled('div', {
   h: 200,
   backgroundColor: '$black100',
+  py: 60,
 });
 
 const Grid = styled('div', {

@@ -7,3 +7,4 @@ export { default as IconSection } from './IconSection';
 export { default as Logo } from './Logo';
 export { default as Text } from './Text';
 export { default as Title } from './Title';
+export { default as WorldClassSection } from './WorldClassSection';
