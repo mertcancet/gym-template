@@ -55,6 +55,10 @@ const Grid = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2,1fr)',
   justifyItems: 'center',
+  '@mdMax': {
+    gridTemplateColumns: '1fr',
+    gap: 32,
+  },
 });
 
 const ImageWrapper = styled('div', {
