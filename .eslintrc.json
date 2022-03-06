@@ -38,6 +38,11 @@
     "react-hooks/rules-of-hooks": "error",
     "react/self-closing-comp": "error",
     "no-undef": "error",
-    "prettier/prettier": "error"
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
