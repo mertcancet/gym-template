@@ -1,5 +1,6 @@
 import {
   AccessSection,
+  Footer,
   Hero,
   IconSection,
   OwnerSection,
@@ -14,6 +15,7 @@ const Home = () => {
       <WorldClassSection />
       <OwnerSection />
       <AccessSection />
+      <Footer />
     </div>
   );
 };
