@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Logo } from 'components';
 import { Facebook, Twitter, Instagram } from 'components/icons';
 import { styled } from 'stitches.config';
